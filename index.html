@@ -34,5 +34,13 @@
       ctx.drawImage(floorTile, 0, 0, 128, 128);
     };
   </script>
+  <script>
+    const player = new Image();
+    player.src = 'assets/art/player/plr_idle.png'
+
+    player.onload = function() {
+      ctx.drawImage(player, 0, 0, 128, 256)
+    }
+  </script>
 </body>
 </html>
