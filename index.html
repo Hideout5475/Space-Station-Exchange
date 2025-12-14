@@ -39,6 +39,7 @@
     player.src = 'assets/art/player/plr_idle.png'
 
     player.onload = function() {
+      ctx.imageSmoothingEnabled = false;
       ctx.drawImage(player, 0, 128, 128, 256)
     }
   </script>
