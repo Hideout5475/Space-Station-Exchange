@@ -23,17 +23,10 @@
   <h1>The Space Station Exchange</h1>
   <p>Coming Soon 🚀</p>
   <canvas id="gameCanvas" width="128" height="384"></canvas>
+  <script src="mapHandler.js"></script>
   <script>
     const canvas = document.getElementById('gameCanvas');
     const ctx = canvas.getContext('2d');
-
-    const floorTile = new Image();
-    floorTile.src = 'assets/art/tiles/tile_floor.png';
-
-    floorTile.onload = function() {
-      ctx.imageSmoothingEnabled = false;
-      ctx.drawImage(floorTile, 0, 0, 128, 128);
-    };
   </script>
   <script>
     const player = new Image();
