@@ -21,7 +21,7 @@
 <body>
   <h1>The Space Station Exchange</h1>
   <p>Coming Soon 🚀</p>
-  <canvas id="gameCanvas" width="128" height="256"></canvas>
+  <canvas id="gameCanvas" width="128" height="352"></canvas>
   <script>
     const canvas = document.getElementById('gameCanvas');
     const ctx = canvas.getContext('2d');
@@ -39,7 +39,7 @@
     player.src = 'assets/art/player/plr_idle.png'
 
     player.onload = function() {
-      ctx.drawImage(player, 0, 64, 128, 256)
+      ctx.drawImage(player, 0, 96, 128, 256)
     }
   </script>
 </body>
