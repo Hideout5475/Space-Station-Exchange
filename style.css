@@ -1,0 +1,10 @@
+#game {
+  position: relative;
+}
+
+.wall {
+  position: absolute;
+  width: 32;
+  height: 32;
+  background: #555;
+}
