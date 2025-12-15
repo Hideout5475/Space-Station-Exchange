@@ -1,4 +1,4 @@
-# Space-Station-Exchange
+# The Space Station Exchange
 The year is 2096. Humans have gained access to travel at 90% the speed of light. We have found life throughout the universe.
 We made a universal agreement between all life forms so we can live in peace and keep advancing as a society, hopefully to prove the existence of other universes and colonizing them.
 At this point we have advanced to where the literal laws of physics are stopping us from becoming Gods. Hopefully we can find a universe with less stict laws of physics to reach what we want.
